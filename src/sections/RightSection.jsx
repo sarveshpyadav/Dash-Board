@@ -53,7 +53,7 @@ const RightSection = () => {
           <p>
             Are you considering a <br /> <span>Housing Advance ?</span>
           </p>
-          <small>Limited time reduced interest.</small>
+          <small>Limited time reduced interest.</small><br />
           <a href="#">Learn More &gt;</a>
         </LearnMoreWrapper>
       </Container>
@@ -178,6 +178,14 @@ const LearnMoreWrapper = styled.div`
   & > small {
     color: #c3c3c3;
   }
+
+  & > a {
+    text-decoration: none;
+    color: #7e70fd;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
   @media screen and (max-width: 768px) {
     display: none;
   }
